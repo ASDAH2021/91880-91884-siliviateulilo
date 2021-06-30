@@ -1,0 +1,105 @@
+.container {
+display: grid;
+grid-template-columns: 2fr 5fr;
+grid-template-rows: auto;
+grid-template-areas: 
+"nav nav"
+"title title"
+"profileOne header"
+"profileTwo sectionOne"
+"profileThree sectionTwo"
+"profileFour sectionThree"
+"footer footer";
+grid-gap: 15px;
+background-color: aliceblue;
+
+}
+
+.nav {
+   grid-area: nav;
+   background-color: chartreuse;
+   padding: 20px;
+ }
+
+   .nav li{
+    display: inline;
+    padding: 45px;
+  }
+
+ .nav a{
+   padding: 10px;
+   background-color: aliceblue;
+ }
+
+ .nav a:hover{
+   background-color: chartreuse;
+   color: white;
+ }
+
+ .title{
+  grid-area: title;
+  background-color: aliceblue;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+ }
+
+ .profileOne{
+   image: url "images/call.png";
+   grid-area: profileOne;
+   max-width: 500px;
+ }
+
+ .header{
+   grid-area: header;
+   background-color: pink;
+   padding: 20px;
+   font-size: 30px;
+ }
+
+ .profileTwo{
+   image: url "images/message.png";
+   grid-area: profileTwo;
+   max-width: 500px;
+ }
+
+ .sectionOne{
+   grid-area: sectionOne;
+   background-color: chartreuse;
+   padding: 20px;
+   font-size: 30px;
+ }
+
+ .profileThree{
+   image: url "images/email.png";
+   grid-area: profileThree;
+   max-width: 500px;
+ }
+
+ .sectionTwo{
+   grid-area: sectionTwo;
+   background-color: pink;
+   padding: 20px;
+   font-size: 30px;
+ }
+
+ .profileFour{
+   image: url "images/address.png";
+   grid-area: profileFour;
+   max-width: 500px;
+ }
+
+ .sectionThree{
+   grid-area: sectionThree;
+   background-color: chartreuse;
+   padding: 20px;
+   font-size: 30px;
+ }
+
+ .footer{
+   grid-area: footer;
+  background-color: pink;
+   padding: 20px;
+   font-size: 20px;
+   text-align: center;
+ }
