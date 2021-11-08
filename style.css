@@ -7,6 +7,7 @@ grid-template-areas:
 "title title"
 "profileOne header"
 "sectionOne sectionOne"
+"sectionTwo sectionTwo"
 "footer footer";
 grid-gap: 15px;
 background-color: aliceblue;
@@ -61,6 +62,7 @@ background-color: aliceblue;
    padding: 30px;
    font-size: 25px;
  }
+
  img {
    max-width:200px;
  }
@@ -68,7 +70,7 @@ background-color: aliceblue;
 .footer{
   grid-area: footer;
   background-color: slategrey;
-  padding: 35px;
+  padding: 30px;
   text-align: center;
   font-size: 25px;
 }

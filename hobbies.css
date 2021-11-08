@@ -35,12 +35,13 @@ background-color: aliceblue;
    color: slateblue;
  }
 
-  .title {
-    grid-area: title;
-    background-color: aliceblue;
-    padding: 20px;
-    text-align: center;
-  }
+  .title{
+  grid-area: title;
+  background-color: aliceblue;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
 
   .sectionOne {
     grid-area: sectionOne;
@@ -78,10 +79,10 @@ background-color: aliceblue;
     font-size: 25px;
   }
 
-  .footer {
-    grid-area: footer;
-    background-color: slategrey;
-    padding: 20px;
-    text-align: center;
-    font-size: 25px;
-  }
+  .footer{
+  grid-area: footer;
+  background-color: slategrey;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+}
