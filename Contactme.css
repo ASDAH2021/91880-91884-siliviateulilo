@@ -1,14 +1,11 @@
 .container {
 display: grid;
-grid-template-columns: 2fr 5fr;
+grid-template-columns: 1fr 2fr;
 grid-template-rows: auto;
 grid-template-areas: 
 "nav nav"
 "title title"
-"profileOne header"
-"profileTwo sectionOne"
-"profileThree sectionTwo"
-"profileFour sectionThree"
+"profileOne sectionOne"
 "footer footer";
 grid-gap: 15px;
 background-color: aliceblue;
@@ -17,7 +14,7 @@ background-color: aliceblue;
 
 .nav {
    grid-area: nav;
-   background-color: chartreuse;
+   background-color: slategrey;
    padding: 20px;
  }
 
@@ -26,14 +23,14 @@ background-color: aliceblue;
     padding: 45px;
   }
 
- .nav a{
+  .nav a{
    padding: 10px;
-   background-color: aliceblue;
+   background-color: slategrey;
  }
 
  .nav a:hover{
-   background-color: chartreuse;
-   color: white;
+   background-color: white;
+   color: slateblue;
  }
 
  .title{
@@ -41,65 +38,25 @@ background-color: aliceblue;
   background-color: aliceblue;
   padding: 20px;
   text-align: center;
-  font-size: 30px;
- }
-
- .profileOne{
-   image: url "images/call.png";
-   grid-area: profileOne;
-   max-width: 500px;
- }
-
- .header{
-   grid-area: header;
-   background-color: pink;
-   padding: 20px;
-   font-size: 30px;
- }
-
- .profileTwo{
-   image: url "images/message.png";
-   grid-area: profileTwo;
-   max-width: 500px;
  }
 
  .sectionOne{
    grid-area: sectionOne;
-   background-color: chartreuse;
-   padding: 20px;
-   font-size: 30px;
+   background-color: aliceblue;
+   padding:30px;
+   text-align: centre;
+   font-size: 25px;
  }
 
- .profileThree{
-   image: url "images/email.png";
-   grid-area: profileThree;
-   max-width: 500px;
- }
-
- .sectionTwo{
-   grid-area: sectionTwo;
-   background-color: pink;
-   padding: 20px;
-   font-size: 30px;
- }
-
- .profileFour{
-   image: url "images/address.png";
-   grid-area: profileFour;
-   max-width: 500px;
- }
-
- .sectionThree{
-   grid-area: sectionThree;
-   background-color: chartreuse;
-   padding: 20px;
-   font-size: 30px;
+ .profileOne{
+   grid-area: profileOne;
+   background-image: url "images/contacts.jpg";
  }
 
  .footer{
    grid-area: footer;
-  background-color: pink;
+   background-color: slategrey;
    padding: 20px;
-   font-size: 20px;
    text-align: center;
+   font-size: 25px;
  }

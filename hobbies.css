@@ -16,7 +16,7 @@ background-color: aliceblue;
 
 .nav {
   grid-area: nav;
-  background-color: chartreuse;
+  background-color: slategrey;
   padding: 20px;
 }
 
@@ -27,52 +27,61 @@ background-color: aliceblue;
 
    .nav a{
    padding: 10px;
-   background-color: aliceblue;
+   background-color: slategrey;
  }
 
  .nav a:hover{
-   background-color: chartreuse;
-   color: white;
+   background-color: white;
+   color: slateblue;
  }
 
   .title {
     grid-area: title;
-    background-color: pink;
+    background-color: aliceblue;
     padding: 20px;
     text-align: center;
   }
 
   .sectionOne {
     grid-area: sectionOne;
-    background-color: chartreuse;
-    padding: 30px;
-    font-size: 30px;
+    background-color: aliceblue;
+    padding: 20px;
+    font-size: 25px;
     text-align: center;
   }
 
   .profileOne{
   background-image: url "images/music.jpg";
    grid-area: profileOne;
+   max-width: 300px;
+   text-align: center;
+ }
+
+ .profileTwo{
+   backgound-image: url "images/netball.jfif";
+   grid-area: profileTwo;
+   max-width: 300px;
+   text-align: center;
  }
 
  .header {
     grid-area: header;
-    background-color: pink;
+    background-color: aliceblue;
     padding: 30px;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .sideTwo {
     grid-area: sideTwo;
-    background-color: chartreuse;
-    padding: 30px;
-    font-size: 30px;
+    background-color: aliceblue;
+    padding: 20px;
+    font-size: 25px;
   }
 
   .footer {
     grid-area: footer;
-    background-color: pink;
+    background-color: slategrey;
     padding: 20px;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
   }
