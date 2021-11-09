@@ -24,7 +24,7 @@ background-color: aliceblue;
 
  .nav {
    grid-area: nav;
-   background-color: slategrey;
+   background-color: silver;
    padding: 20px;
  }
   
@@ -35,7 +35,7 @@ background-color: aliceblue;
 
    .nav a{
    padding: 10px;
-   background-color: slategrey;
+   background-color: silver;
  }
 
  .nav a:hover{
@@ -69,7 +69,7 @@ background-color: aliceblue;
 
 .footer{
   grid-area: footer;
-  background-color: slategrey;
+  background-color: silver;
   padding: 30px;
   text-align: center;
   font-size: 25px;
