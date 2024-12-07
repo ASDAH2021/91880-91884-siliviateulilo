@@ -1,0 +1,88 @@
+.container {
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: auto;
+grid-template-areas: 
+"nav nav"
+"title title"
+"sectionOne sectionOne"
+"profileOne header"
+"profileTwo sideTwo"
+"footer footer";
+grid-gap: 15px;
+background-color: aliceblue;
+
+}
+
+.nav {
+  grid-area: nav;
+  background-color: darkgray;
+  padding: 20px;
+}
+
+  .nav li{
+    display: inline;
+    padding: 45px;
+  }
+
+   .nav a{
+   padding: 10px;
+   background-color: darkgray;
+ }
+
+ .nav a:hover{
+   background-color: white;
+   color: slateblue;
+ }
+
+  .title{
+  grid-area: title;
+  background-color: aliceblue;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+  .sectionOne {
+    grid-area: sectionOne;
+    background-color: aliceblue;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .profileOne{
+  background-image: url "images/music.jpg";
+   grid-area: profileOne;
+   max-width: 300px;
+   text-align: center;
+ }
+
+ .profileTwo{
+   backgound-image: url "images/netball.jfif";
+   grid-area: profileTwo;
+   max-width: 300px;
+   text-align: center;
+ }
+
+ .header {
+    grid-area: header;
+    background-color: aliceblue;
+    padding: 30px;
+    font-size: 25px;
+  }
+
+  .sideTwo {
+    grid-area: sideTwo;
+    background-color: aliceblue;
+    padding: 20px;
+    font-size: 25px;
+  }
+
+  .footer{
+  grid-area: footer;
+  background-color: darkgray;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+}

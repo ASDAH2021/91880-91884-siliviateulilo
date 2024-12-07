@@ -1,0 +1,90 @@
+.container {
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: auto;
+grid-template-areas: 
+"nav nav"
+"title title"
+"profileOne profileTwo"
+"profileThree header"
+"profileFour section"
+"footer footer";
+grid-gap: 15px;
+background-color: aliceblue;
+
+}
+
+.nav {
+   grid-area: nav;
+   background-color: darkgray;
+   padding: 20px;
+ }
+
+   .nav li{
+    display: inline;
+    padding: 45px;
+  }
+
+  .nav a{
+   padding: 10px;
+   background-color: darkgray;
+ }
+
+ .nav a:hover{
+   background-color: white;
+   color: slateblue;
+ }
+
+ .title{
+  grid-area: title;
+  background-color: aliceblue;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.profileOne{
+  image: url "images/flag.png";
+  grid-area: profileOne;
+  max-width: 300px;
+}
+
+.profileTwo{
+  image: url "images/israelflag.jpg";
+  grid-area: profileTwo;
+  max-width: 300px;
+}
+
+.profileThree{
+  image: url "images/people.jpg";
+  grid-area: profileThree;
+  max-width: 300px;
+}
+
+.header{
+  grid-area: header;
+  background-color: aliceblue;
+  padding: 30px;
+  font-size: 25px;
+}
+
+.profileFour{
+  image: url "images/israel.jpg";
+  grid-area: profileFour;
+  max-width: 300px;
+}
+
+.section{
+  grid-area: section;
+  background-color: aliceblue;
+  padding: 30px;
+ font-size: 25px;
+}
+
+  .footer{
+  grid-area: footer;
+  background-color: darkgray;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+}

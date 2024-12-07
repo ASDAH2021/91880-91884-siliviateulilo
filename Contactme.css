@@ -1,0 +1,63 @@
+.container {
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: auto;
+grid-template-areas: 
+"nav nav"
+"title title"
+"profileOne sectionOne"
+"footer footer";
+grid-gap: 15px;
+background-color: aliceblue;
+
+}
+
+.nav {
+   grid-area: nav;
+   background-color: darkgray;
+   padding: 20px;
+ }
+
+   .nav li{
+    display: inline;
+    padding: 45px;
+  }
+
+  .nav a{
+   padding: 10px;
+   background-color: darkgray;
+ }
+
+ .nav a:hover{
+   background-color: white;
+   color: slateblue;
+ }
+
+ .title{
+  grid-area: title;
+  background-color: aliceblue;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+ .sectionOne{
+   grid-area: sectionOne;
+   background-color: aliceblue;
+   padding:30px;
+   text-align: centre;
+   font-size: 25px;
+ }
+
+ .profileOne{
+   grid-area: profileOne;
+   background-image: url "images/contacts.jpg";
+ }
+
+ .footer{
+  grid-area: footer;
+  background-color: darkgray;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+}

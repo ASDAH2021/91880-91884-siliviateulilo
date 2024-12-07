@@ -1,0 +1,76 @@
+.container {
+display: grid;
+grid-template-columns: 1fr 5fr;
+grid-template-rows: auto;
+grid-template-areas: 
+"nav nav"
+"title title"
+"profileOne header"
+"sectionOne sectionOne"
+"sectionTwo sectionTwo"
+"footer footer";
+grid-gap: 15px;
+background-color: aliceblue;
+
+}
+
+.title{
+  grid-area: title;
+  background-color: aliceblue;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+ .nav {
+   grid-area: nav;
+   background-color: darkgray;
+   padding: 20px;
+ }
+  
+  .nav li{
+    display: inline;
+    padding: 45px;
+  }
+
+   .nav a{
+   padding: 10px;
+   background-color: darkgray;
+ }
+
+ .nav a:hover{
+   background-color: white;
+   color: slateblue;
+ }
+
+ header {
+   grid-area: header;
+   background-color: aliceblue;
+   padding: 40px;
+   font-size: 25px;
+  
+ }
+
+ .profileOne{
+  image: url "images/views.jpg";
+   grid-area: profileOne;
+ }
+
+ .sectionOne{
+   grid-area: sectionOne;
+   background-color: aliceblue;
+   padding: 30px;
+   font-size: 25px;
+ }
+
+ img {
+   max-width:200px;
+ }
+
+.footer{
+  grid-area: footer;
+  background-color: darkgray;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+}
